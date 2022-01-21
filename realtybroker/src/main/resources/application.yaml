@@ -1,6 +1,9 @@
-spring:
-  h2:
-    console:
-      enabled: true
+server:
+  port: 8080
 
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
 
