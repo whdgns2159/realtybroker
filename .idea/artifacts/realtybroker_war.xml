@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="realtybroker:war">
+    <output-path>$PROJECT_DIR$/realtybroker/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>realtybroker</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="realtybroker-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="realtybroker:war exploded" />
+    </root>
+  </artifact>
+</component>

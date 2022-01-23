@@ -2,8 +2,13 @@ server:
   port: 8080
 
 spring:
-  mvc:
-    view:
-      prefix: /WEB-INF/jsp/
-      suffix: .jsp
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/MOON
+    username: lune6669
+    password: 1234
+
+
 
