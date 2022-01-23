@@ -19,6 +19,7 @@
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-relational:2.4.0-M2" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.7.0-M2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.15" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.15" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.33" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.7.0-M1" />
@@ -72,16 +73,13 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.3.15" />
           <element id="library" level="project" name="Maven: org.springframework.ws:spring-ws-core:3.1.2" />
           <element id="library" level="project" name="Maven: org.springframework.ws:spring-xml:3.1.2" />
-          <element id="library" level="project" name="Maven: org.springframework.session:spring-session-jdbc:2.7.0-M1" />
-          <element id="library" level="project" name="Maven: org.springframework.session:spring-session-core:2.7.0-M1" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.15" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.15" />
-          <element id="library" level="project" name="Maven: com.h2database:h2:2.1.210" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:10.0.14" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.58" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.58" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.58" />
-          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.18.0" />
+          <element id="library" level="project" name="Maven: org.mariadb.jdbc:mariadb-java-client:3.0.2-rc" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:2.7.0-M1" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring5:3.0.14.RELEASE" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:3.0.14.RELEASE" />
+          <element id="library" level="project" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.7.0-M1" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.7.0-M1" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
@@ -89,6 +87,7 @@
           <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" />
           <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.15" />
         </element>
       </element>
       <element id="directory" name="META-INF">
