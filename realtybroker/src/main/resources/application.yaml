@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
   tomcat:
     accesslog:
       enabled: true
@@ -9,10 +9,19 @@ spring:
     cache: false
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://127.0.0.1:3306/MOON
-    username: lune6669
+    url: jdbc:mariadb://127.0.0.1:3337/MOON
+    username: root
     password: 1234
-
-
-
-
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
